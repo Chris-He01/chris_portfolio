@@ -1,0 +1,163 @@
+$sec: rgb(141, 161, 187);
+
+.jumbotron{
+	height:100vh;
+	background: url("../../../assets/images/WyrPzCU3hfM.jpg") no-repeat;
+	// background: rgb(26, 34, 44);
+  background-size: 100% 100%;
+	background-position:left top, right top;
+	text-align:center  !important;
+	margin-bottom:50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	span{
+		z-index: 1;
+	}
+	.downArrow {
+		color:white; 
+		font-size:2rem;
+		cursor: pointer;
+		&:hover{
+			color: $sec
+		}
+	}
+}
+
+.introTitle{
+	font-size: 50px;
+    line-height: 1;
+    color: #FFF;
+	margin-top: 10px;
+	transition: all 0.5s ease;
+	display: inline-block;
+}
+
+// .titleWithStyle{
+// 	opacity: 1;
+// 	transform: translateY(0px);
+// }
+
+.intro {
+	font-size: 40px;
+    display: block;
+    line-height: 1;
+    color: #FFF;
+    margin-top: 10px;
+}
+
+.descriptionText{
+	margin-top: 6vh;
+	margin-bottom: 40px;
+}
+
+.bounce {
+	display: inline-block;
+	position: relative;
+	-moz-animation: bounce 0.5s infinite linear;
+	-o-animation: bounce 0.5s infinite linear;
+	-webkit-animation: bounce 0.5s infinite linear;
+	animation: bounce 0.5s infinite linear;
+}
+@-webkit-keyframes bounce {
+	0% { top: 0; }
+	50% { top: -0.2em; }
+	70% { top: -0.3em; }
+	100% { top: 0; }
+}
+@-moz-keyframes bounce {
+	0% { top: 0; }
+	50% { top: -0.2em; }
+	70% { top: -0.3em; }
+	100% { top: 0; }
+}
+@-o-keyframes bounce {
+	0% { top: 0; }
+	50% { top: -0.2em; }
+	70% { top: -0.3em; }
+	100% { top: 0; }
+}
+@-ms-keyframes bounce {
+	0% { top: 0; }
+	50% { top: -0.2em; }
+	70% { top: -0.3em; }
+	100% { top: 0; }
+}
+@keyframes bounce {
+	0% { top: 0; }
+	50% { top: -0.2em; }
+	70% { top: -0.3em; }
+	100% { top: 0; }
+}
+
+.jumbotron p{
+	font-size:1.5rem;
+}
+
+#jumbText{
+	margin-top: 20vh;
+	width:15vw;
+	height:15vw;
+	z-index: 1;
+	border-radius:50%;
+	background-image: url("../../../assets/images/myPicture1.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	box-shadow:0 0 5px grey;
+}
+
+#profileButton {
+	display: inline-block;
+	background-color: Transparent;
+	border-radius: 20px;
+	border:1px solid grey;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 18px;
+	padding: 15px;
+	width: 230px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+	span {
+		cursor: pointer;
+		display: inline-block;
+		position: relative;
+		transition: 0.5s;
+	}
+	span:after {
+		content: '\00bb';
+		position: absolute;
+		opacity: 0;
+		top: 0;
+		right: -20px;
+		transition: 0.5s;
+	}
+	&:hover{
+		background-color: #7b38d8;
+		span {
+			padding-right: 25px;
+		}
+		span:after {
+			opacity: 1;
+			right: 0;
+		}
+	}
+}
+  
+@media only screen and (max-width:600px){
+	.jumbotron{
+		background-size: 100% 100%;
+	}
+	#jumbText{
+		width:150px;
+		height:150px;
+	}
+	.introTitle{
+		font-size: 30px;
+	}
+	.intro {
+		font-size: 20px;
+	}
+}

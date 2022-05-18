@@ -1,0 +1,44 @@
+$paddingVer: 10vh;
+$imgSpacing: 10px;
+$imgSize: 30px;
+
+.whiteText{
+    color:white;
+}
+
+footer p{
+    margin-top: 10px;
+}
+
+#nameLine{
+    margin: auto;
+}
+
+
+footer{
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: $paddingVer;
+    padding-bottom: $paddingVer;
+    div img{
+        margin-top: 5px;
+        margin-left: $imgSpacing;
+        width: $imgSize;
+        height: $imgSize;
+    }
+    #contactInfoList{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    a{
+        position:relative;
+        z-index: 1;
+    }
+    fa-icon{
+        margin-left: 10px;
+    }
+}

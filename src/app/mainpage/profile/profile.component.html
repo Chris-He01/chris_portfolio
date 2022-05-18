@@ -1,0 +1,14 @@
+<div class="jumbotron">
+    <div id="jumbText">
+    </div>
+    <div class="descriptionText">
+        <h1>
+            <span class="introTitle">{{ 'HOME.NAME' | translate }}</span>
+            <span class="intro"> {{ 'HOME.DESCRIPTION' | translate }} </span>
+        </h1>
+    </div>
+    <app-particle></app-particle>
+    <span class="downArrow bounce" (click)="startViewing()">
+        <fa-icon [icon]="downArrow"></fa-icon>
+    </span>
+</div>

@@ -1,0 +1,82 @@
+$upDownSpacing: 50px;
+$textFont: 1.2rem;
+$grey: #a19f9f;
+
+@mixin flex($direction) {
+  display: flex;
+  flex-direction: $direction;
+}
+
+#aboutMeImg {
+  max-height: 35vw;
+  width: auto;
+  padding-right: 3rem;
+}
+
+.mobileImgView {
+  display: none;
+}
+
+.aboutMe {
+  padding-top: $upDownSpacing;
+  padding-bottom: $upDownSpacing;
+  @include flex(row);
+  justify-content: center;
+  width: 100vw;
+  .innerContent {
+    @include flex(row);
+    width: 70vw;
+  }
+  .content {
+    padding-top: 3rem;
+    h2 {
+      font-weight: 800;
+      font-size: 3rem;
+    }
+    .description {
+      padding-top: 2rem;
+      font-size: $textFont;
+      color: $grey;
+      max-width: 70vw;
+    }
+  }
+}
+
+.list-description {
+  @include flex(row);
+  padding-top: 2rem;
+  max-width: 70vw;
+  .titles {
+    padding-right: 2vw;
+    font-weight: 700;
+    color: black;
+  }
+  td {
+    font-size: $textFont;
+    line-height: 1.7;
+    color: $grey;
+  }
+  p {
+    color: $grey;
+    font-size: $textFont;
+    line-height: 1.7;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  $textFont: 1rem;
+  .aboutMe {
+    padding-top: 0px;
+  }
+  #aboutMeImg {
+    display: none;
+  }
+  .mobileImgView {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .innerContent {
+    width: 80vw;
+  }
+}

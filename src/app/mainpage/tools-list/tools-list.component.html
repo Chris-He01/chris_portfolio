@@ -1,0 +1,30 @@
+<div id="ToolsList">
+    <h3>{{ "TECH_LIST.TITLE" | translate }}</h3>
+    <div class="chooseTechType">
+        <span [ngStyle]="styleType(TechStacks.frontEnd)" (click)="highlight(TechStacks.frontEnd)" >
+            {{ "TECH_LIST."+TechStacks.frontEnd | translate}}
+        </span>
+        <span [ngStyle]="styleType(TechStacks.backEnd)" (click)="highlight(TechStacks.backEnd)" >
+            {{ "TECH_LIST."+TechStacks.backEnd | translate}}
+        </span>
+        <span [ngStyle]="styleType(TechStacks.dataScience)" (click)="highlight(TechStacks.dataScience)" >
+            {{ "TECH_LIST."+TechStacks.dataScience | translate}}
+        </span>
+        <span [ngStyle]="styleType(TechStacks.others)" (click)="highlight(TechStacks.others)"  >
+            {{ "TECH_LIST."+TechStacks.others | translate}}
+        </span>
+    </div>
+    <div class="teachStackArea">
+        <ng-container *ngFor="let category of techOrders">
+            <div class="techStack" 
+                [class.inactive]="activeTech !== category" 
+                [class.active]="activeTech === category"
+                [id]="category">
+                <ng-container *ngFor="let tech of techs[category]; let last = last" >
+                    <span> {{tech}} </span>
+                </ng-container>
+                <br>
+            </div>
+        </ng-container>
+    </div>
+</div>

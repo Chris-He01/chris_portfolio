@@ -1,0 +1,170 @@
+body {
+  position: relative;
+  font-family: 'Open Sans', sans-serif; }
+
+.bold {
+  font-weight: bold; }
+
+#text {
+  font-size: 20px; }
+
+#project {
+  text-align: center; }
+
+.projectTitle {
+  color: #3B4893 !important;
+  font-size: 18px;
+  font-weight: bold; }
+
+.projectLanuage {
+  color: #13f2d8;
+  font-size: 15px;
+  font-weight: bold; }
+
+#githubLink {
+  font-weight: bold; }
+
+.container h2 {
+  color: #9D9D9D;
+  text-transform: uppercase;
+  text-align: center; }
+
+
+#services {
+  width: 100vw;
+  padding-top: 80px;
+  padding-bottom: 30px; }
+
+#headerName {
+  display: flex;
+  height: 80px;
+  width: 250px;
+  align-items: center;
+  justify-content: center; }
+
+#headerNameText {
+  font-size: 25px;
+  font-family: 'Montserrat',"Helvetica Neue",Helvetica,Arial,sans-serif; }
+
+#staff {
+  padding-top: 50px;
+  text-align: center;
+  background: linear-gradient(to bottom, white, #eadce3);
+  height: 450px; }
+
+#staff h2 {
+  padding-top: 20px; }
+
+#staff img {
+  margin: 0 20px 20px 20px;
+  float: left;
+  border-radius: 10%;
+  border: 2px solid black;
+  box-shadow: 0 0 10px grey; }
+
+#staff div {
+  margin: auto;
+  width: 70%; }
+
+footer {
+  color: white;
+  background-color: #161616; }
+
+#contact {
+  width: 300px;
+  margin-left: 20px;
+  display: inline-block;
+  vertical-align: top; }
+
+#contact h4 {
+  text-align: center; }
+
+.img {
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 280px;
+  height: 100px; }
+
+#profileButton {
+  display: inline-block;
+  background-color: Transparent;
+  border-radius: 20px;
+  border: 1px solid grey;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 15px;
+  width: 230px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px; }
+
+#profileButton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s; }
+
+#profileButton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s; }
+
+#profileButton:hover {
+  background-color: #7b38d8; }
+
+#profileButton:hover span {
+  padding-right: 25px; }
+
+#profileButton:hover span:after {
+  opacity: 1;
+  right: 0; }
+
+.projectDescription {
+  display: relative;
+  padding-top: 10px;
+  font-size: 18px; }
+
+.circle {
+  margin: 0 auto;
+  width: 300px;
+  transform: translateY(8%);
+  padding-bottom: 50px;
+  transition: all 0.5s;
+  cursor: pointer; }
+
+.circle_title h2, .circle_title h3 {
+  margin: 0;
+  transition: all 0.2s 0.04s;
+  position: relative;
+  top: -10px; }
+
+.circle:hover h2, .circle:hover h3 {
+  opacity: 1;
+  top: -36px; }
+
+.circle:hover .content_shadow {
+  transform: scale(1.1);
+  box-shadow: 0px 31px 19px -2px #e0e8f9;
+  top: -22px; }
+
+.circle:hover h3 {
+  transition: all 0.2s 0.04s; }
+
+.circle:hover h2 {
+  transition: all 0.2s; }
+
+.content_shadow {
+  width: 200px;
+  height: 20px;
+  border-radius: 70%;
+  position: relative;
+  top: -44px;
+  transition: all 0.3s;
+  z-index: 0;
+  margin: 0 auto; }

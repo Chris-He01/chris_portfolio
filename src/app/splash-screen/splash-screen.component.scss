@@ -1,0 +1,22 @@
+#splashScreen{
+    z-index: 11;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    p {
+        color: white
+    }
+    #textArea{
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

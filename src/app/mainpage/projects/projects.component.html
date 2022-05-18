@@ -1,0 +1,28 @@
+<app-specific-detail 
+    [displayProjectDetail]="displayProjectDetail" 
+    [projectDetail]="projectDetail" 
+    (closeDetails)="closeDetail()">
+</app-specific-detail>
+<div id="services" class="container">
+    <div id="project">
+        <h2>{{ "PROJECTS.PROJECTS" | translate }}</h2>
+        <a id="githubLink" href="https://github.com/Chris-He01">Github: Chris He</a>
+        <hr/>
+    </div>
+    <div class="project-area">
+        <ng-container *ngFor="let project of projects; let index=index; let first = first">
+            <div [ngClass]="{'project-data':true, 'margin-left': !first}"> 
+                <div class="circle" (click)="showDetail(index)">
+                    <div class="circle_title">
+                        <h2 class="projectTitle"> {{project.title}} </h2>
+                        <h3 class="projectLanuage">{{project.techs}}</h3>
+                    </div>
+                    <a ><img [src]="'../../../assets/images/'+project.pictureLink" [alt]="project.pictureLink"/></a>
+                    <div class="content_shadow"></div>
+                    <p class="projectDescription" [innerHTML]='project.description'></p>
+                </div>
+            </div>
+        </ng-container>
+    </div>
+</div>
+

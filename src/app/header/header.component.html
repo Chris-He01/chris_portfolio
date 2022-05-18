@@ -1,0 +1,29 @@
+<nav id="header" class="navStyle navbar navbar-expand-lg fixed">
+    <div id="headerName"><p id="headerNameText">Chris He</p></div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <ng-container 
+                *ngFor="let step of steps;
+                        let index = index;
+                        let last = last;
+                        let first = first">
+                <li (click)="goToStep(step.id)"
+                    class="nav-item bold">
+                    <a class="nav-link" id="NAV-{{ step.id }}" 
+                        [ngClass]="{ 'active': first }" >{{ "HEADER."+step.id | translate }}</a>
+                </li>
+            </ng-container>
+        </ul>
+        <div id="phone">
+            <i class="fas fa-phone"></i> chris09270126@gmail.com
+            <select [ngModel]="selectedLang" (ngModelChange)="changeLanguage($event)">
+                <option *ngFor="let lang of languages" [ngValue]="lang">{{ lang.displayText }}</option>
+            </select>
+        </div>
+    </div>
+    <div class="languageBar">
+        <select [ngModel]="selectedLang" (ngModelChange)="changeLanguage($event)">
+            <option *ngFor="let lang of languages" [ngValue]="lang">{{ lang.displayText }}</option>
+        </select>
+    </div>
+</nav>
