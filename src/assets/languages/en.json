@@ -38,7 +38,9 @@
     "OBEL_Lab": {
         "TITLE": "ML Full-Stack Development Intern",
         "DESCRIPTION_1": {
-            "TITLE": "Prototyped the full stack of FCE server with authentication for clinicians to hold capacity evaluation sessions online with nodejs. Distributed the app in both web-based with nodejs(google cloud) and standalone desktop versions with Electron."
+            "TITLE": "Prototyped the full stack of FCE server with authentication for clinicians to hold capacity evaluation sessions online with nodejs. Distributed the app in both web-based with nodejs(google cloud) and standalone desktop versions with Electron.",
+            "D1_D0": "Built image viewer in react to perfomr drag and zoom when special image capacity evaluation is required",
+            "D1_D1": "Utilized MongoDB to store user information data as web-based version"
         },
         "DESCRIPTION_2": {
             "TITLE": "Developed the pose estimation Software with ML tool Mediapipe to generate body landmark data from 2D video files. Distributed the app in both web-based with nodejs(google cloud) and standalone desktop versions with QT."
