@@ -18,7 +18,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 docker build -t chris_web .
 
 ### run container
-docker run --rm -p 4200:80 --name jeff_web_ui jeff_web
+docker run --rm -p 4200:80 --name chris_web_ui chris_web
 
 ### check contents in container
 docker exec -it /bin/bash
