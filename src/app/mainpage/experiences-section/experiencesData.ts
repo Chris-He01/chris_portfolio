@@ -1,7 +1,25 @@
 import { Experience } from "../../models/experience.model";
 
 export const experiencesData: Experience[] = [
-    
+
+    {
+        title: "Prof Randy Haris Research Team",
+        descriptions: [{
+            title: "DESCRIPTION_1", details: ["D1_D0", "D1_D1"]
+        }, {
+            title: "DESCRIPTION_2", details: ["D1_D0", "D1_D1", "D1_D2", "D1_D3"]
+        }, {
+            title: "DESCRIPTION_3", details: []
+        },{
+            title: "DESCRIPTION_4", details: []
+        },{
+            title: "DESCRIPTION_5", details: []
+        }],
+        techsUsed: ["Golang", "Node.js", "React", "Next.js", "Mysql", "typeScript", "docker-compose", "Traefik", "Kubernetes", "Zotero", "PHPMyAdmin"],
+        period: "Sep 2022 - Present",
+        logoImg: "uwaterloo.png",
+        show: false
+    },
     {
         title: "OBEL_Lab",
         descriptions: [{

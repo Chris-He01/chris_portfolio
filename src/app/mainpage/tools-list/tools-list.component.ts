@@ -17,9 +17,9 @@ export class ToolsListComponent {
   TechStacks = TechStacks;
   techOrders = [TechStacks.frontEnd, TechStacks.backEnd, TechStacks.dataScience, TechStacks.others]
   techs = {
-    [TechStacks.frontEnd]: ["Angular", " React", " React", " Native", " Redux", " Javascript/Typescript", " HTML", " CSS", " SCSS", " Gulp", " jQuery", " Bootstrap", " Angular ", "Material", " PrimeNg", " JavaFx", " Android"],
-    [TechStacks.dataScience]: ["Python", "  Numpy", "  Pandas", "  matplotlib", "  Scikit-learn", "  Tensorflow", "  Keras"],
-    [TechStacks.backEnd]: ["Node", " Objection.js", " Socket.io", " Java", " Spring", " Spring Boot", " PHP", " PostgresSQL", " MongoDB", " Django", " SQL"],
+    [TechStacks.frontEnd]: ["Angular", " React", " React", "next.js", " Native", " Redux", " Javascript/Typescript", " HTML", " CSS", " SCSS", " Gulp", " jQuery", " Bootstrap", " Angular ", "Material", " PrimeNg", " JavaFx", " Android"],
+    [TechStacks.dataScience]: ["mysql", "zotero", "phpmyadmin", "Python", "  Numpy", "  Pandas", "  matplotlib", "  Scikit-learn", "  Tensorflow", "  Keras"],
+    [TechStacks.backEnd]: ["GOlang", "git", "Node", " Objection.js", " Socket.io", " Java", " Spring", " Spring Boot", " PHP", " PostgresSQL", " MongoDB", " Django", " SQL"],
     [TechStacks.others]: ["C", " C++", " Python", " PyGame", " Tensorflow", " Numpy", " docker", " Git", " SVN", " Linux", " Bash", " Vim", " UML"]
   }
   activeTech: TechStacks = TechStacks.frontEnd;

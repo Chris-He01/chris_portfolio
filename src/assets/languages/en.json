@@ -35,6 +35,30 @@
     "CONTACT_ME": {
         "CONTACT_ME": "Contact Me"
     },
+    "Prof Randy Haris Research Team": {
+        "TITLE": "Lead Developer",
+        "DESCRIPTION_1": {
+            "TITLE": "deployed the Monorepo full-stack project and the distributed systems at Linux service with public access using Traefik",
+            "D1_D0": "One data management service powered by GOlang, and mySQL; One monorepo that containts two websites powered by react, ts, and next.js framework",
+            "D1_D1": "Organize codes by Shifting computational logic out of components into helper functions, inject with custom hooks."
+        },
+        "DESCRIPTION_2": {
+            "TITLE": "Contributed to the development of project's core features using next.js, react, typescript, GOlang and completed 4 major features and 15 minor feature/bug fix tickets.",
+            "D1_D0": "Reolved version confict of phpadmin for mysql database displaying",
+            "D1_D1": "Created new API for goFigure game data request in GOlang by applying Gorilla.mux, cobra, gorm libraries",
+            "D1_D2": "Created table antd react component in tsx that support sorting and filter under next.js framework",
+            "D1_D3": "Fixed bug in async data fetching functions that calls API from seperate GOlang service"
+        },
+        "DESCRIPTION_3": {
+            "TITLE": "Contributed to the project's research planning meeting by researching and generating report about existing resource"
+        },
+        "DESCRIPTION_4": {
+            "TITLE": "Enhaced the CI & CD by adding jest and lint testing and introduced git hooks to improve the linguistic format."
+        },
+        "DESCRIPTION_5": {
+            "TITLE": "Increased the future workflow through automating manual tasks in bash and finished 3 detailed documents."
+        }
+    },
     "OBEL_Lab": {
         "TITLE": "ML Full-Stack Development Intern",
         "DESCRIPTION_1": {
