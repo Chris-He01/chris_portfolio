@@ -38,7 +38,7 @@
     "Christie Digital": {
         "TITLE": "Infrastructure & Software Developer",
         "DESCRIPTION_1": {
-            "TITLE": "Developed Monitoring programs for infrastructure health using Grafana, InfluxDB and Hashicorp Consul.",
+            "TITLE": "Developed Monitoring programs for infrastructure health using Grafana, InfluxDB and Hashicorp Consul."
         },
         "DESCRIPTION_2": {
             "TITLE": "building Nomad nodes grouped by clusters by migrating from kubernetes cluster.(present)"
