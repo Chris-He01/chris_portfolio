@@ -38,7 +38,7 @@
     "Christie Digital": {
         "TITLE": "Infrastructure & Software Developer",
         "DESCRIPTION_1": {
-            "TITLE": "Developed Monitoring programs for infrastructure health using Grafana, InfluxDB and Hashicorp Consul.",
+            "TITLE": "Developed Monitoring programs for infrastructure health using Grafana, InfluxDB and Hashicorp Consul."
         },
         "DESCRIPTION_2": {
             "TITLE": "building Nomad nodes grouped by clusters by migrating from kubernetes cluster.(present)"
@@ -50,13 +50,16 @@
     "5G Open RAN research lab (Rogers Inc. lab infrastructure)": {
         "TITLE": "Research Assistant Fellow",
         "DESCRIPTION_1": {
-            "TITLE": "Deployed reliable network slicing based on real radio Station (USRP device) by using flexRIC(RAN intelligent Controller) and 5G core controlled by srsRAN new O-RAN CU/DU solution."
+            "TITLE": "Prototyped the full stack of FCE server with authentication for clinicians to hold capacity evaluation sessions online with nodejs. Distributed the app in both web-based with nodejs(google cloud) and standalone desktop versions with Electron.",
+            "D1_D0": "Built image viewer in react to perfomr drag and zoom when special image capacity evaluation is required",
+            "D1_D1": "Organize codes by Shifting computational logic out of components into helper functions, inject with custom hooks.",
+            "D1_D2": "Utilized MongoDB to store user information data as web-based version"
         },
         "DESCRIPTION_2": {
-            "TITLE": "Monitored and Collected 50+ stats over 1+ hrs of time-series by using Grafana, Prometheus, Python FastAPI."
+            "TITLE": "Developed the pose estimation Software with ML tool Mediapipe to generate body landmark data from 2D video files. Distributed the app in both web-based with nodejs(google cloud) and standalone desktop versions with QT."
         },
         "DESCRIPTION_3": {
-            "TITLE": "Tested variable Slicing algorithem including Static, NVS and EDF. Also researched applying ML algorithm in Slicing mapping."
+            "TITLE": "Delivered research in Remote FCE and Rehabilitation development analysis with the lab head director’s assist."
         }
     },
     "Linguistic Research Team": {
