@@ -11,13 +11,13 @@ export const experiencesData: Experience[] = [
         }, {
             title: "DESCRIPTION_3", details: []
         }],
-        techsUsed: ["Golang", "Node.js", "React", "Next.js", "Mysql", "typeScript", "docker-compose", "Traefik", "Kubernetes", "Zotero", "PHPMyAdmin"],
-        period: "Sep 2022 - Present",
+        techsUsed: ["Ansible", "Hashicorp tool(Nomad, Vault, Consul)", "Artifacotry", "Golang", "docker-compose", "Traefik", "Kubernetes", "Grafana", "Prometheus", "InfluxDB", "MongoDB", "RPM-based Linux"],
+        period: "April 2023 - Present",
         logoImg: "christie.png",
         show: false
     },
     {
-        title: "Linguistic Research Team",
+        title: "5G Open RAN research lab (Rogers Inc. lab infrastructure)",
         descriptions: [{
             title: "DESCRIPTION_1", details: []
         }, {
@@ -25,8 +25,8 @@ export const experiencesData: Experience[] = [
         }, {
             title: "DESCRIPTION_3", details: []
         }],
-        techsUsed: ["Golang", "Node.js", "React", "Next.js", "Mysql", "typeScript", "docker-compose", "Traefik", "Kubernetes", "Zotero", "PHPMyAdmin"],
-        period: "Sep 2022 - Present",
+        techsUsed: ["Grafana", "python", "FlexRic", "zsh", "Deb-based Linux", "shell script", "Open AirInterface tools", "Flexric", "srsRAN", "Golang"],
+        period: "Jan 2022 - Present",
         logoImg: "uwaterloo.png",
         show: false
     },

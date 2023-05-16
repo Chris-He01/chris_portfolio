@@ -15,6 +15,7 @@
         "TITLE": "Some techs that I have used",
         "FRONT_END": "Front End",
         "BACK_END": "Back End",
+        "Infrastructure_Cloud": "Infrastructure_cloud",
         "DATA_SCIENCE": "Data Science",
         "OTHERS": "Others"
     },
@@ -50,10 +51,7 @@
     "5G Open RAN research lab (Rogers Inc. lab infrastructure)": {
         "TITLE": "Research Assistant Fellow",
         "DESCRIPTION_1": {
-            "TITLE": "Prototyped the full stack of FCE server with authentication for clinicians to hold capacity evaluation sessions online with nodejs. Distributed the app in both web-based with nodejs(google cloud) and standalone desktop versions with Electron.",
-            "D1_D0": "Built image viewer in react to perfomr drag and zoom when special image capacity evaluation is required",
-            "D1_D1": "Organize codes by Shifting computational logic out of components into helper functions, inject with custom hooks.",
-            "D1_D2": "Utilized MongoDB to store user information data as web-based version"
+            "TITLE": "Prototyped the full stack of FCE server with authentication for clinicians to hold capacity evaluation sessions online with nodejs. Distributed the app in both web-based with nodejs(google cloud) and standalone desktop versions with Electron."
         },
         "DESCRIPTION_2": {
             "TITLE": "Developed the pose estimation Software with ML tool Mediapipe to generate body landmark data from 2D video files. Distributed the app in both web-based with nodejs(google cloud) and standalone desktop versions with QT."
