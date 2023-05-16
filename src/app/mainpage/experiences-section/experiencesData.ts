@@ -3,7 +3,35 @@ import { Experience } from "../../models/experience.model";
 export const experiencesData: Experience[] = [
 
     {
-        title: "Prof Randy Haris Research Team",
+        title: "Christie Digital",
+        descriptions: [{
+            title: "DESCRIPTION_1", details: []
+        }, {
+            title: "DESCRIPTION_2", details: []
+        }, {
+            title: "DESCRIPTION_3", details: []
+        }],
+        techsUsed: ["Golang", "Node.js", "React", "Next.js", "Mysql", "typeScript", "docker-compose", "Traefik", "Kubernetes", "Zotero", "PHPMyAdmin"],
+        period: "Sep 2022 - Present",
+        logoImg: "uwaterloo.png",
+        show: false
+    },
+    {
+        title: "Linguistic Research Team",
+        descriptions: [{
+            title: "DESCRIPTION_1", details: []
+        }, {
+            title: "DESCRIPTION_2", details: []
+        }, {
+            title: "DESCRIPTION_3", details: []
+        }],
+        techsUsed: ["Golang", "Node.js", "React", "Next.js", "Mysql", "typeScript", "docker-compose", "Traefik", "Kubernetes", "Zotero", "PHPMyAdmin"],
+        period: "Sep 2022 - Present",
+        logoImg: "uwaterloo.png",
+        show: false
+    },
+    {
+        title: "Linguistic Research Team",
         descriptions: [{
             title: "DESCRIPTION_1", details: ["D1_D0", "D1_D1"]
         }, {
@@ -14,6 +42,8 @@ export const experiencesData: Experience[] = [
             title: "DESCRIPTION_4", details: []
         },{
             title: "DESCRIPTION_5", details: []
+        },{
+            title: "DESCRIPTION_6", details: []
         }],
         techsUsed: ["Golang", "Node.js", "React", "Next.js", "Mysql", "typeScript", "docker-compose", "Traefik", "Kubernetes", "Zotero", "PHPMyAdmin"],
         period: "Sep 2022 - Present",

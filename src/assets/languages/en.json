@@ -35,7 +35,31 @@
     "CONTACT_ME": {
         "CONTACT_ME": "Contact Me"
     },
-    "Prof Randy Haris Research Team": {
+    "Christie Digital": {
+        "TITLE": "Infrastructure & Software Developer",
+        "DESCRIPTION_1": {
+            "TITLE": "Developed Monitoring programs for infrastructure health using Grafana, InfluxDB and Hashicorp Consul.",
+        },
+        "DESCRIPTION_2": {
+            "TITLE": "building Nomad nodes grouped by clusters by migrating from kubernetes cluster.(present)"
+        },
+        "DESCRIPTION_3": {
+            "TITLE": "Automating server configuration using Ansible, Storing and distributing packages using Artifactory, Building containers and assets for development environments (Upcoming)"
+        }
+    },
+    "5G Open RAN research lab (Rogers Inc. lab infrastructure)": {
+        "TITLE": "Research Assistant Fellow",
+        "DESCRIPTION_1": {
+            "TITLE": "Deployed reliable network slicing based on real radio Station (USRP device) by using flexRIC(RAN intelligent Controller) and 5G core controlled by srsRAN new O-RAN CU/DU solution."
+        },
+        "DESCRIPTION_2": {
+            "TITLE": "Monitored and Collected 50+ stats over 1+ hrs of time-series by using Grafana, Prometheus, Python FastAPI."
+        },
+        "DESCRIPTION_3": {
+            "TITLE": "Tested variable Slicing algorithem including Static, NVS and EDF. Also researched applying ML algorithm in Slicing mapping."
+        }
+    },
+    "Linguistic Research Team": {
         "TITLE": "Lead Developer",
         "DESCRIPTION_1": {
             "TITLE": "deployed the Monorepo full-stack project and the distributed systems at Linux service with public access using Traefik",
@@ -43,21 +67,25 @@
             "D1_D1": "Organize codes by Shifting computational logic out of components into helper functions, inject with custom hooks."
         },
         "DESCRIPTION_2": {
-            "TITLE": "Contributed to the development of project's core features using next.js, react, typescript, GOlang and completed 4 major features and 15 minor feature/bug fix tickets.",
+            "TITLE": "Contributed to the development of project's core features using next.js, react, typescript, golang and completed 10+ major features and 20+ feature/bug fix tickets",
             "D1_D0": "Reolved version confict of phpadmin for mysql database displaying",
             "D1_D1": "Created new API for goFigure game data request in GOlang by applying Gorilla.mux, cobra, gorm libraries",
             "D1_D2": "Created table antd react component in tsx that support sorting and filter under next.js framework",
             "D1_D3": "Fixed bug in async data fetching functions that calls API from seperate GOlang service"
         },
         "DESCRIPTION_3": {
-            "TITLE": "Contributed to the project's research planning meeting by researching and generating report about existing resource"
+            "TITLE": "Contributed to the project’s elicitation and analysis process by researching and generating reports. Avoided 50% of deployment time by innovating new plan after researching Kubernetes and Traefik."
         },
         "DESCRIPTION_4": {
-            "TITLE": "Enhaced the CI & CD by adding jest and lint testing and introduced git hooks to improve the linguistic format."
+            "TITLE": "Enhanced the CI & CD by adding jest and lint testing and introduced git hooks to improve the linguistic formats. Avoided 90% of man-made error."
         },
         "DESCRIPTION_5": {
-            "TITLE": "Increased the future workflow through automating manual tasks in bash and finished 3 detailed documents."
+            "TITLE": "Increased the future workflow by 20% through automating manual tasks in bash and finishing detailed documents."
+        },
+        "DESCRIPTION_6": {
+            "TITLE": "Managed the development team of 6 developers, and resolved 30% more tickets than the previous term."
         }
+
     },
     "OBEL_Lab": {
         "TITLE": "ML Full-Stack Development Intern",
