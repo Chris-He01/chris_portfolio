@@ -13,7 +13,7 @@ export const experiencesData: Experience[] = [
         }],
         techsUsed: ["Golang", "Node.js", "React", "Next.js", "Mysql", "typeScript", "docker-compose", "Traefik", "Kubernetes", "Zotero", "PHPMyAdmin"],
         period: "Sep 2022 - Present",
-        logoImg: "uwaterloo.png",
+        logoImg: "christie.png",
         show: false
     },
     {
